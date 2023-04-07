@@ -29,7 +29,7 @@ void CWE114_Process_Control__w32_char_file_01_bad()
 
     if (hFile == INVALID_HANDLE_VALUE)
     {
-        MessageBox(NULL, TEXT("Ошибка КЛИЕНТА! - неудалось открыть файл"), TEXT("Warning"), MB_OK);
+        MessageBox(NULL, TEXT("Cannot open file"), TEXT("Warning"), MB_OK);
         return;
     }
     do
