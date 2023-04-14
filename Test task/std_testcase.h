@@ -57,7 +57,7 @@
 # define __STDC_LIMIT_MACROS 1
 
 #define ALLOCA alloca
-#endi
+#endif
 #endif
 
 #ifdef __cplusplus
@@ -127,6 +127,4 @@ extern "C" {
 }
 #endif
 
-
-#endif
 
